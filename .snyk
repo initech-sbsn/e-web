@@ -1,0 +1,10 @@
+custom_rules:
+  - id: 'Custom Command Injection'
+    description: 'Command injection rule with customized sources and sinks. It ignores all sanitizers.'
+    severity: 'medium'
+    cwe:
+      - 'CWE-78'
+    fix_analysis: 'Please fix this.'
+    rule_code: '    Taint<  CallExpression<"Utils.fetchCommand">,  PRED:None,  CallExpression<"exec"> >'
+    languages:
+      - 'java'
