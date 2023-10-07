@@ -13,7 +13,7 @@ public class Application {
 
 	public static void main(String[] args) throws IOException {
 		String a = args[0];
-		Runtime.getRuntime().exec("a");
+		Runtime.getRuntime().exec(a);
 
 		ApplicationContext ctx = SpringApplication.run(Application.class, args);
 
