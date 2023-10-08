@@ -1,3 +1,4 @@
+version: v3.0.0
 custom_rules:
   - id: 'testsebtest'
     description: 'testsebtest'
