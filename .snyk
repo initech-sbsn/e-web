@@ -1,6 +1,6 @@
 version: v3.0.0
 custom_rules:
-  - id: 'Custom Command Injection'
+  - id: 'custom-command-injection'
     description: 'Command Injection Rule with custom sources and sinks'
     severity: 'medium'
     cwe:
