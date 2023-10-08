@@ -1,12 +1,12 @@
 version: v3.0.0
 custom_rules:
-  - id: 'testsebtest'
-    description: 'testsebtest'
+  - id: 'Custom Command Injection'
+    description: 'Command Injection Rule with custom sources and sinks'
     severity: 'medium'
     cwe:
-      - 'CWE-502'
-    fix_analysis: 'testsebtest'
-    rule_code: '    Taint<  CallExpression<"Utils.fetchCommand">,  PRED:None,  CallExpression<"exec"> >'
+      - 'CWE-78'
+    fix_analysis: 'Some text.'
+    rule_code: 'Taint<  CallExpression<"Utils.fetchCommand">,  Arg2In<CallExpression<"Utils.verify">>,  CallExpression<"exec"> >'
     languages:
       - 'apex'
       - 'c'
