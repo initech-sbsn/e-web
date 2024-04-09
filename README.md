@@ -2,6 +2,7 @@
 
   
 
+
 ## Snyk Code (SAST) ##
 
 * [Supported languages and frameworks](https://docs.snyk.io/scan-application-code/snyk-code/snyk-code-language-and-framework-support)
